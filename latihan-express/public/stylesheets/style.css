@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: 500;
+}
+
+input {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #00B7FF;
+  color: white;
+}
