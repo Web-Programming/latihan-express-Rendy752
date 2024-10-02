@@ -2,7 +2,7 @@ extends layout
 
 block content
   h1= title
-  form(action="/contact", method="post")
+  form
     p
       label(for="name") Nama
       input(type="text", name="name", value=name, disabled)
@@ -11,6 +11,6 @@ block content
       input(type="email", name="email", value=email, disabled)
     p
       label(for="message") Pesan 
-      input(type="text", name="message", value=message, disabled)
+      input(type="text", name="message", required)
 
-    button Submit
+    button(type="submit") Kirim

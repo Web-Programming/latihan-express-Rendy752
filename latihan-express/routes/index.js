@@ -15,7 +15,6 @@ router.get('/kontak', function (req, res, next) {
     title: 'Hubungi Kami',
     name: 'Rendy Pratama',
     email: 'rendypratama752@gmail.com',
-    message: 'Silahkan hubungi kami melalui email',
   });
 });
 
